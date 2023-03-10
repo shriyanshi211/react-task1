@@ -1,0 +1,89 @@
+.dash{
+    text-align: center;
+    display: flex;
+    
+    background-color: #343541;
+    color:white;
+    position:absolute;
+    top:0;bottom:0;right:0;left:0; 
+}
+.sidemenu{
+    width: 20%;
+    background-color: #202123;
+}
+.sidemenu h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(195, 167, 150);
+}
+.chatbox{
+    flex: 1; 
+    border:0.1px solid rgb(26, 25, 25);
+    background-color: rgb(26, 25, 25);
+  
+}
+.heading{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 100;
+    color: rgb(223, 181, 130);
+    margin-top: 20px;
+    float:left;
+    margin-left: 5%;
+   
+}
+.heading p{
+    color: aliceblue;
+}
+.icons{
+    color: aliceblue;
+   float: right;
+   margin-top: 40px;
+   margin-right: 10px;
+}
+.icons:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.row{
+    display:flex;
+    
+     
+}
+.pic{
+    margin-left: auto;
+    margin-right:auto;
+    width:400px;
+    margin-top:80px;
+    margin-left: -1600px;
+    padding:20px 20px 20px 20px;
+ 
+     
+ }
+ .image2{
+    margin-left: auto;
+    margin-right:auto;
+    width:400px;
+    margin-top:60px;
+    margin-left: -700px;
+    padding:20px 20px 20px 20px;
+ 
+ }
+ @media only screen and (max-width: 768px){
+    .pic{
+       margin-left:-3000px;
+     
+         
+     }
+     .image2{
+        margin-left: auto;
+        margin-right:auto;
+        width:300px;
+        margin-top:10px;
+        margin-left: -900px;
+        padding:20px 20px 20px 20px;
+        overflow-x: hidden;
+     
+     }
+    
+ }
+ 

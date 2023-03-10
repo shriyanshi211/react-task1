@@ -1,0 +1,18 @@
+.form-container input{
+    width: 50%;
+    margin: 1.5rem ;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: rgb(198, 200, 202,90%);
+}
+.login-btn{
+    width: 55%;
+    margin: 2rem ;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(216, 126, 22);
+    color: rgb(218, 230, 240);
+}

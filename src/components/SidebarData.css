@@ -1,0 +1,25 @@
+.Sidebarlist{
+    padding:0;
+}
+.row{
+    list-style-type: none;
+    display:flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.row #icon{
+    padding:10px;
+    display: grid;
+    margin-left: 0%;
+}
+.row #tile{
+    flex:30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.row:hover{
+    cursor: pointer;
+    color: blanchedalmond;
+}

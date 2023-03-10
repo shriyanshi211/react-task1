@@ -1,0 +1,68 @@
+.Home {
+    text-align: center;
+    display: flex;
+    
+    background-color: #343541;
+    color:white;
+    position:absolute;
+    top:0;bottom:0;right:0;left:0;
+  
+  }
+  .imageside{
+   width: 50%;
+   background-color: #202123;
+  }
+  .login{
+    flex: 1; 
+    border:0.1px solid rgb(26, 25, 25);
+    background-color: rgb(26, 25, 25);
+    position: relative;
+   
+  }
+  .imagesidecontent h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    
+
+  }
+  .imagesidecontent p{
+    
+        text-align: center;
+        position: relative;
+        
+      
+  }
+  .image{
+    padding: 110px 10px ;
+    width: 400px;
+    align-items: center;
+    border-radius: 15%
+}
+.login-content h1{
+     font-family: 'Franklin Gothic Medium';
+     font-weight: 100;
+     padding-top: 50px;
+     font-size: 30px;
+     text-align: center;
+     color: rgb(195, 167, 150);
+
+}
+.login-content h2{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.login-content h3{
+    text-align: center;
+    color: #747685;
+    
+   
+
+}
+@media only screen and (max-width: 768px){
+  .image{
+    width:300px;
+  }
+}
